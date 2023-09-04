@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+.footer-section {
+    background-color: #0d2436;
+    
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.food-munch-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.food-munch-logo1 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.menu-item-image1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-heading1 {
+    color: #6E65B7;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    background-size: cover;
+}
+
+
+
+.wcu-card1 {
+    text-align: center;
+    background-image: url("https://res.cloudinary.com/dcdtsvzys/image/upload/v1679827354/5_rny2db.jpg");
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    background-size: cover;
+}
+
+.wcu-card3 {
+    text-align: center;
+    background-image: url("https://res.cloudinary.com/dcdtsvzys/image/upload/v1679827148/wall_r1kemc.avif");
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    background-size: cover;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card-description1 {
+    color: whitesmoke;
+    font-family: "Roboto";
+    font-size: 16px;
+    max-width: 1000px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.description1 {
+    color: red;
+    font-family: "Roboto";
+    font-size: 25px;
+    margin-top: 5px
+}
+
+.description2 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 25px;
+    margin-top: 5px
+}
+
+.bg-con {
+    background-color: #d0b200;
+}
+
+@media screen and (min-width:"768px") {
+    .menu-item-image3 {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+    }
+
+}
+
+.menu-item-image3 {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.menu-item-image9 {
+    width: 100;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.back {
+    background-color: #669CB9;
+
+
+}
+
+.menu-item-image98 {
+    width: 130px;
+    height: 130px;
+    border-radius: 60px;
+
+
+}
+
+.description9 {
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+    margin-left: 5px;
+    max-width: 300px;
+}
+
+@media screen and (min-width:"768px") {
+    .menu-item-image9 {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+}
+
+.gender-field-heading {
+    color: black;
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+
+.maiii {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    min-width: 500px;
+    flex-wrap: wrap;
+
+
+}
+
+.coping {
+    height: 10px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.boxer {
+
+    background-color: #F7C7DD;
+    margin: 5px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boxer1 {
+
+    background-color: #BB8CAE;
+    margin: 5px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boxer2 {
+
+    background-color: #A9BDE2;
+    margin: 5px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boxer3 {
+
+    background-color: #B5EA98;
+    margin: 5px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boxer4 {
+
+    background-color: #8ADCCA;
+    margin: 5px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boxer5 {
+
+    background-color: #EADA9D;
+    margin: 5px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.description10 {
+    color: black;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.popup-form-wrapper,
+.popup-message-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-form,
+.popup-message {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.popup-form h2,
+.popup-message p {
+    margin-top: 0;
+}
+
+.popup-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.popup-form input,
+.popup-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.popup-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* Popup message styles */
+.popup-message {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+ .see-more-btn {
+    background-color:rgb(47, 217, 255);
+    text-align: center;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+ 
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-gallery img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+ 
+  #know-more-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #additional-info {
+    margin-top: 20px;
+    color: whitesmoke;
+  }
